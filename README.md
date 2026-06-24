@@ -1,9 +1,6 @@
-# 2048-game
 # 🎮 2048 Game Deployment on AWS EKS with Fargate & ALB Ingress
 
 > Deploy the classic **2048 game** on Amazon EKS using **AWS Fargate** (serverless compute) and expose it to the internet via an **Application Load Balancer (ALB)** using the AWS Load Balancer Controller.
-
-This project is based on [AWS DevOps Zero to Hero - Day 22](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/tree/main/day-22) by **Abhishek Veeramalla**.
 
 ---
 
@@ -271,14 +268,14 @@ eksctl delete cluster \
 
 ## 📚 References
 
-- [AWS DevOps Zero to Hero — Day 22 by Abhishek Veeramalla](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/tree/main/day-22)
 - [AWS Load Balancer Controller Docs](https://kubernetes-sigs.github.io/aws-load-balancer-controller/)
 - [eksctl Documentation](https://eksctl.io/)
 - [Amazon EKS Fargate](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html)
+- [2048 Game Source](https://github.com/gabrielecirulli/2048)
 
 ---
 
 ## 👤 Author
 
 **Tharun Kumaran**
-Project completed as part of the AWS DevOps Zero to Hero learning journey.
+Aspiring DevOps Engineer | AWS | Kubernetes | EKS | Fargate
